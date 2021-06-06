@@ -1,0 +1,10 @@
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.issues-container {
+  margin-top: 30px;
+  width: 600px;
+}

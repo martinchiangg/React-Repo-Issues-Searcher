@@ -1,0 +1,52 @@
+.search-container {
+  display: flex;
+  align-items: center;
+}
+
+.auto-complete-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+
+.search-input {
+  height: 30px;
+  width: 500px;
+  border: 2px solid green;
+  font-size: 18px;
+}
+
+.auto-complete {
+  position: absolute;
+  top: 35px;
+  background-color: whitesmoke;
+  border: 2px solid #999;
+  border-top-width: 0;
+  list-style: none;
+  margin-top: 0;
+  max-height: 300px;
+  overflow-y: scroll;
+  padding-left: 0;
+  text-align: left;
+  width: 500px;
+}
+
+.option {
+  font-size: 16px;
+  padding: 5px;
+}
+
+.auto-complete > .active,
+.auto-complete div:hover {
+  background-color: darkgray;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.search-btn {
+  margin-left: 10px;
+  width: 100px;
+  height: 35px;
+}
